@@ -10,14 +10,19 @@
     <div id="navbarBasicExample" class="navbar-menu" :class="{ 'is-active' : isOpen }">
         <div class="navbar-start">
 
-        <router-link exact-active-class="active" class="navbar-item" to="/about">
-            <i class="fas fa-at fa-pull-left"></i>
-            About
-        </router-link>
-
         <router-link exact-active-class="active" class="navbar-item" to="/profile">
             <i class="fas fa-user fa-pull-left"></i>
             Profile
+        </router-link>
+
+        <router-link exact-active-class="active" class="navbar-item" to="/log">
+            <i class="fas fa-database fa-pull-left"></i>
+            Log Data
+        </router-link>
+
+        <router-link exact-active-class="active" class="navbar-item" to="/about">
+            <i class="fas fa-info fa-pull-left"></i>
+            About
         </router-link>
 
         <div class="navbar-item has-dropdown is-hoverable">
