@@ -11,12 +11,12 @@
         <div class="navbar-start">
 
         <router-link exact-active-class="active" class="navbar-item" to="/about">
-            <i class="fab fa-vuejs fa-pull-left"></i>
+            <i class="fas fa-at fa-pull-left"></i>
             About
         </router-link>
 
         <router-link exact-active-class="active" class="navbar-item" to="/profile">
-            <i class="fas fa-ghost fa-pull-left"></i>
+            <i class="fas fa-user fa-pull-left"></i>
             Profile
         </router-link>
 

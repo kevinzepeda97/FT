@@ -1,5 +1,7 @@
 <template>
-  <div class="home">
+<div class="home">
+    <div class="block">
+      <div class="box">
     <section class="hero is-primary is-medium">
       <div class="hero-body">
         <div class="container">
@@ -8,7 +10,12 @@
         </div>
       </div>
     </section>
+      </div>
+      </div>
 
+
+<div class="block">
+<div class="box">
     <h1 class="subtitle">Login!</h1>
 
     <div class="field column is-4 is-offset-one-third">
@@ -32,6 +39,8 @@
         Sign Up!</router-link>
       </h1>
     </div>
+    </div>
+  </div>
   </div>
 </template>
 
