@@ -24,14 +24,14 @@ router.post('/', (req, res) => {
         id: uuid.v4(),
         name: req.body.name,
         email: req.body.email,
-        status: 'active',
+        password: req.body.password,
         milesRan: 0,
         steps: 0,
         caloriesBurnt: 0
     }
 
-    if(!newUser.name || !newUser.email){
-        return res.status(400).json({ msg: 'Please include a name and email'});
+    if(!newUser.name || !newUser.email || !newUser.password){
+        return res.status(400).json({ msg: 'Please include a name, email and password'});
     }
 
     users.push(newUser);
