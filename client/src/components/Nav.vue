@@ -20,6 +20,11 @@
             Log Data
         </router-link>
 
+        <router-link exact-active-class="active" class="navbar-item" to="/settings">
+            <i class="fas fa-cog fa-pull-left"></i>
+            Settings
+        </router-link>
+
         <router-link exact-active-class="active" class="navbar-item" to="/about">
             <i class="fas fa-info fa-pull-left"></i>
             About

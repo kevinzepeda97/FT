@@ -4,6 +4,7 @@ import Home from '../views/Home.vue';
 import Signup from '../views/Signup.vue';
 import Profile from '../views/Profile.vue';
 import Log from '../views/Log.vue';
+import Settings from '../views/Settings.vue';
 
 Vue.use(VueRouter);
 
@@ -35,6 +36,11 @@ const routes = [
     path: '/log',
     name: 'log',
     component: Log,
+  },
+  {
+    path: '/settings',
+    name: 'settings',
+    component: Settings,
   },
 ];
 
