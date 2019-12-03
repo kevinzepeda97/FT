@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const logger = require('./middleware/logger');
-
+const userController = require('./controllers/Users');
 const app = express();
 
 app.use(logger);
@@ -10,8 +10,11 @@ app.use(logger);
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
-//users API routes
-app.use('/api/users', require('./controllers/users'));
+//static folder
+app.use(express.static(path.join(__dirname, 'public')));
+
+//users API route
+app.use('/api/users', userController);
 
 const port = process.env.PORT || 5000;
 
