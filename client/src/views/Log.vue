@@ -19,12 +19,12 @@
             </span>
           </div>
         </div>
-        <button class="button is-primary">
+        <router-link exact-active-class="active" to="/profile/:name" class="button is-primary">
           <span class="icon">
             <i class="fa fa-chart-line"></i>
           </span>
-          <span>Log</span>
-        </button>
+          <span>Log!</span>
+        </router-link>
       </div>
     </div>
   </div>

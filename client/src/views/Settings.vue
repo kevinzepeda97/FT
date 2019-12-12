@@ -32,6 +32,11 @@
             </span>
           </div>
         </div>
+        <div class="field column is-6 is-offset-3">
+        <router-link to="/settings" exact-active-class="active" class="button is-primary">
+                <strong>Update Info</strong>
+                </router-link>
+                </div>
       </div>
       <div class="box">
         <article class="panel is-primary">

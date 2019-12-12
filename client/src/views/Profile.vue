@@ -1,5 +1,14 @@
 <template>
   <div class="profile">
+    <div v-if="loading">
+      <h3>Loading...</h3>
+    </div>
+
+    <div v-if="error">
+      <h1>{{error}}</h1>
+      <router-link to="/">Go Back</router-link>
+    </div>
+
     <div class="block">
       <div class="card">
         <div class="card-content">

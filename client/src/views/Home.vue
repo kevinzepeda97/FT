@@ -36,7 +36,11 @@
             </span>
           </div>
         </div>
-
+        <div class="field column is-4 is-offset-one-third">
+        <router-link to="/profile/:name" exact-active-class="active" class="button is-primary">
+                <strong>Login</strong>
+                </router-link>
+        </div>
         <div class="signup">
           <h1>
             Don't have an account?
