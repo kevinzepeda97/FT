@@ -44,37 +44,11 @@
     Friends
   </p>
   <div class="panel-block">
-    <p class="control has-icons-left">
-      <input class="input is-primary" type="text" placeholder="Search">
-      <span class="icon is-left">
-        <i class="fas fa-search" aria-hidden="true"></i>
-      </span>
+    <p class=" control column is-6 is-offset-3">
+      <v-select v-model="selected" :options="['Kevin', 'Fever Dream',
+      'Donye Wump', 'Rodney Dangerfield']"></v-select>
     </p>
   </div>
-  <a class="panel-block">
-    <span class="panel-icon">
-<i class="fas fa-user-friends" aria-hidden="true"></i>
-    </span>
-    Kevin
-  </a>
-  <a class="panel-block">
-    <span class="panel-icon">
-<i class="fas fa-user-friends" aria-hidden="true"></i>
-    </span>
-    Joe
-  </a>
-  <a class="panel-block">
-    <span class="panel-icon">
-<i class="fas fa-user-friends" aria-hidden="true"></i>
-    </span>
-    Biden
-  </a>
-  <a class="panel-block">
-    <span class="panel-icon">
-<i class="fas fa-user-friends" aria-hidden="true"></i>
-    </span>
-    Freddie
-  </a>
 </article>
       </div>
     </div>
