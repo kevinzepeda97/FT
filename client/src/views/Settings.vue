@@ -45,8 +45,8 @@
   </p>
   <div class="panel-block">
     <p class=" control column is-6 is-offset-3">
-      <v-select v-model="selected" :options="['Kevin', 'Fever Dream',
-      'Donye Wump', 'Rodney Dangerfield']"></v-select>
+      <v-select v-model="selected" :options="['Kevin', 'Alex',
+      'Jessica', 'Rodney Dangerfield']"></v-select>
     </p>
   </div>
 </article>
